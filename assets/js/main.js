@@ -1,19 +1,23 @@
 function checkOddorEven(){
     const arr=[];
     var i;    
+    
     for(i=1; i<=10; i++){
-        arr.push(prompt("Number"+i));        
+        arr.push(prompt("Enter "+ i + " of Ten Numbers"));        
          }
          console.log(arr)
+         /*document.getElementById("Output").innerHTML=arr;*/
          arr.forEach(number =>{
             if (number % 2 !== 0){
-                console.log(number +"---Odd");
+                console.log(number +"---Odd");                
+                /*document.getElementById("Output").innerHTML=number+"---Odd";*/
                 }
                 else{
                 console.log(number +"----Even")
+                /*document.getElementById("Output").innerHTML=number +"---Even";*/
                 }
          })
-        console.log(arr.length)
+        
 
 }
 
@@ -32,6 +36,6 @@ function findLargestNum(){
             largest =arr[i];
         }
     }
-    console.log("Largest Number"+largest);
+    console.log("Largest Number is"+largest);
     
 }
