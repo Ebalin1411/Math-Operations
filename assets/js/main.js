@@ -1,3 +1,6 @@
+function findSumofTenNumbers(){
+    
+}
 function checkOddorEven(){
     const arr=[];
     var i;    
