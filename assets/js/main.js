@@ -4,7 +4,7 @@ function findSumofTenNumbers(){
 function checkOddorEven(){
     const arr=[];
     var i;    
-    
+    alert("Please Enter 10 Numbers one by One");
     for(i=1; i<=10; i++){
         arr.push(prompt("Enter "+ i + " of Ten Numbers"));        
          }
