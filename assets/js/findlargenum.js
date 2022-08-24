@@ -13,6 +13,6 @@ function findLargestNum(){
             largest =arr[i];
         }
     }
-    console.log("Largest Number is"+largest);
+    console.log("Largest Number is :"+largest);
     
 }
