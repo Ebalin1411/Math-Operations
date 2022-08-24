@@ -6,15 +6,15 @@ function checkOddorEven(){
         arr.push(prompt("Enter "+ i + " of Ten Numbers"));        
          }
          console.log(arr)
-         /*document.getElementById("Output").innerHTML=arr;*/
+         
          arr.forEach(number =>{
             if (number % 2 !== 0){
                 console.log(number +"---Odd");                
-                /*document.getElementById("Output").innerHTML=number+"---Odd";*/
+                
                 }
                 else{
                 console.log(number +"----Even")
-                /*document.getElementById("Output").innerHTML=number +"---Even";*/
+                
                 }
          })
         
