@@ -1,12 +1,4 @@
 
-/* var spankey = document.querySelector('factorialNum')
-spankey.addEventListener('keyup',(e)=>{
-    if(e.keycode ===13){
-        factoutput.innerHTML="";
-    }
-
-})*/
-
 function findFactorialNum(){
     let number= parseInt(document.getElementById('factorialNum').value); 
     let factoutput =document.getElementById('output');
