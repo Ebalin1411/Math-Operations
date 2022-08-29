@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Find The Factorial of the given Number</h1>
+    </header>
+    <h4>Problem Statement</h4>
+    <span>
+        Given a number n,Find the Factorial of the Number.
+    </span>
+    <h4>Assumption</h4>
+    <ul>
+    <li>User Should Input Only Numbers.</li>
+    <li>Users should enter numbers in the range between 0 to 1000</li>
+    </ul>
+    <h4>Pseudocode</h4>
+    <ol>
+        <li>Accept a Number from the User</li>
+        <li>Store the number</li>       
+        <li>Formula for all positive numbers :factorial(n)=n∗factorial(n−1)</li>
+        <li>If the user input is 0 then factorial is 1 </li>        
+        <li>Print the Factorial value</li>     
+        <br>
+        <h2>Javascript Demo</h2>
+        <br>
+        <span>Find the Factorial of given number</span>
+        <br>
+        <br>        
+        <div>
+            <span>Enter a Number</span>
+            <input id="factorialNum" type="number">
+            <br>
+            <br>
+            <button onclick="findFactorialNum()">Find Factorial</button>
+            <br>
+            <span id="output"></span>
+        </div>             
+    
+    </ol>
+    
+    <br>
+    <a href="https://scratch.mit.edu/projects/724693433">Scratch Code</a>
+    <br>
+    <script src="./assets/js/findFactorialOfNum.js"></script>
+</body>
+</html>
