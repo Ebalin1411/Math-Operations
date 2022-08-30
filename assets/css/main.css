@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+
+.flowchart{
+    display: flex;    
+    height: 500px;
+    width: 500px;
+}
+.demodiv{
+display: flex;
+flex-direction: column;
+}
