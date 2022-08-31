@@ -1,8 +1,7 @@
 function findSumofTenNumbers(){
     const numberslist=[];
     for(let count=0; count<10; count++){
-        const userResponse=prompt('Enter 10 Numbers one by one');
-        
+        const userResponse=prompt('Enter 10 Numbers one by one');        
         numberslist.push(parseInt(userResponse));       
     }
     let sum=0;
