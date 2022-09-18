@@ -1,5 +1,17 @@
-.container{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,500;0,600;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.container
+{
+    position: relative;      
+    display: grid;
+    grid-template-columns: 2fr 2fr;    
+
 }
 
 .flowchart{
@@ -10,4 +22,11 @@
 .demodiv{
 display: flex;
 flex-direction: column;
+}
+/* es6 features problems side*/
+.show_result{
+border-style: solid;
+border-color: black;
+width:500px;
+height:400px;
 }
