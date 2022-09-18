@@ -21,10 +21,10 @@
         let biggest =0;
         input_arr.reduce(function(previousval,currentval){                       
             biggest=previousval > currentval ? biggest= previousval : biggest =currentval;
-            previousval=currentval;
-            //console.log('Greatest num :'+biggest);
+            previousval=currentval;            
             return biggest
         });
+        
         console.log('Greatest num :'+biggest);
         // write on show result div
          document.getElementById('tittle').innerText='Result';
@@ -51,6 +51,7 @@
        
     }  
 
+    // to demonstrate output 
     function dispInputdiv(){
         document.getElementById('tittle').innerText='Enter the Number';
         /*to create input box for Number */
@@ -78,7 +79,7 @@
     function findFactorial(){
        
         let n =parseInt(document.getElementById('inputbox_id').value);
-        let input = []= Array.from({length: n}, (_, i) => i + 1)   
+        let input=(new Array(n)).fill(1).map((v, i)=>i+1)  //creating array with array constructor/fill method to fill the array/map function to map the values 
         console.log(input);
         let result =input.reduce((acc,ele)=>acc*ele,1);
         console.log(result);  
